@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A39A5492024BFF0006D6039 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A39A5482024BFF0006D6039 /* AppDelegate.m */; };
+		6A39A54C2024BFF0006D6039 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A39A54B2024BFF0006D6039 /* ViewController.m */; };
+		6A39A54F2024BFF0006D6039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A39A54D2024BFF0006D6039 /* Main.storyboard */; };
+		6A39A5512024BFF0006D6039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A39A5502024BFF0006D6039 /* Assets.xcassets */; };
+		6A39A5542024BFF0006D6039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A39A5522024BFF0006D6039 /* LaunchScreen.storyboard */; };
+		6A39A5572024BFF0006D6039 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A39A5562024BFF0006D6039 /* main.m */; };
+		6A39A5812024C025006D6039 /* kdSetupTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A39A57B2024C025006D6039 /* kdSetupTableView.m */; };
+		6A39A5822024C025006D6039 /* HapticHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A39A57C2024C025006D6039 /* HapticHelper.m */; };
+		6A39A5832024C025006D6039 /* kdTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A39A57E2024C025006D6039 /* kdTableView.m */; };
+		6A39A5842024C025006D6039 /* kdPrimitiveDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A39A5802024C025006D6039 /* kdPrimitiveDataStore.m */; };
+		6A39A58B2024C048006D6039 /* KDHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A39A5862024C047006D6039 /* KDHelpers.m */; };
+		6A39A58C2024C048006D6039 /* KDWarningLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A39A5892024C047006D6039 /* KDWarningLabel.m */; };
+		6A39A58D2024C048006D6039 /* KDAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A39A58A2024C047006D6039 /* KDAnimations.m */; };
+		6A39A5902024C078006D6039 /* KDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A39A58F2024C078006D6039 /* KDKit.m */; };
+		6A39A5982024E09A006D6039 /* KDCounterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A39A5962024E09A006D6039 /* KDCounterView.m */; };
+		6A39A59D2026DF49006D6039 /* KDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A39A59C2026DF49006D6039 /* KDTextField.m */; };
+		6A39A5A12028F2C1006D6039 /* kdToggle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A39A5A02028F2C1006D6039 /* kdToggle.m */; };
+		6A39A5A42028F5E2006D6039 /* KDColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A39A5A32028F5E2006D6039 /* KDColor.m */; };
+		6A39A5A720290045006D6039 /* KDNumField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A39A5A620290045006D6039 /* KDNumField.m */; };
+		6AAB272B2045060B004453CF /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AAB272A2045060A004453CF /* FBAudienceNetwork.framework */; };
+		6AAB273F2045E0F4004453CF /* KDAdsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB273D2045E0F4004453CF /* KDAdsView.m */; };
+		6AAB2744204746FC004453CF /* KDActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB2743204746FB004453CF /* KDActivityIndicator.m */; };
+		6AAB2747204760AA004453CF /* KDInAppHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB2746204760AA004453CF /* KDInAppHandler.m */; };
+		6AF19A7C202B6C820011278E /* KDScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF19A7B202B6C820011278E /* KDScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A39A55D2024BFF0006D6039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A39A53C2024BFF0006D6039 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A39A5432024BFF0006D6039;
+			remoteInfo = "Just Count FFS";
+		};
+		6A39A5682024BFF0006D6039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A39A53C2024BFF0006D6039 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A39A5432024BFF0006D6039;
+			remoteInfo = "Just Count FFS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A39A5442024BFF0006D6039 /* Hobby Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hobby Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A39A5472024BFF0006D6039 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A39A5482024BFF0006D6039 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A39A54A2024BFF0006D6039 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6A39A54B2024BFF0006D6039 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6A39A54E2024BFF0006D6039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A39A5502024BFF0006D6039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A39A5532024BFF0006D6039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A39A5552024BFF0006D6039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A39A5562024BFF0006D6039 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A39A55C2024BFF0006D6039 /* Hobby CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hobby CounterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A39A5672024BFF0006D6039 /* Hobby CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hobby CounterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A39A5792024C025006D6039 /* HapticHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HapticHelper.h; sourceTree = "<group>"; };
+		6A39A57A2024C025006D6039 /* kdTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kdTableView.h; sourceTree = "<group>"; };
+		6A39A57B2024C025006D6039 /* kdSetupTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kdSetupTableView.m; sourceTree = "<group>"; };
+		6A39A57C2024C025006D6039 /* HapticHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HapticHelper.m; sourceTree = "<group>"; };
+		6A39A57D2024C025006D6039 /* kdPrimitiveDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kdPrimitiveDataStore.h; sourceTree = "<group>"; };
+		6A39A57E2024C025006D6039 /* kdTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kdTableView.m; sourceTree = "<group>"; };
+		6A39A57F2024C025006D6039 /* kdSetupTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kdSetupTableView.h; sourceTree = "<group>"; };
+		6A39A5802024C025006D6039 /* kdPrimitiveDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kdPrimitiveDataStore.m; sourceTree = "<group>"; };
+		6A39A5852024C047006D6039 /* KDAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDAnimations.h; sourceTree = "<group>"; };
+		6A39A5862024C047006D6039 /* KDHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDHelpers.m; sourceTree = "<group>"; };
+		6A39A5872024C047006D6039 /* KDHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDHelpers.h; sourceTree = "<group>"; };
+		6A39A5882024C047006D6039 /* KDWarningLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDWarningLabel.h; sourceTree = "<group>"; };
+		6A39A5892024C047006D6039 /* KDWarningLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDWarningLabel.m; sourceTree = "<group>"; };
+		6A39A58A2024C047006D6039 /* KDAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDAnimations.m; sourceTree = "<group>"; };
+		6A39A58E2024C078006D6039 /* KDKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDKit.h; sourceTree = "<group>"; };
+		6A39A58F2024C078006D6039 /* KDKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDKit.m; sourceTree = "<group>"; };
+		6A39A5962024E09A006D6039 /* KDCounterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDCounterView.m; sourceTree = "<group>"; };
+		6A39A5972024E09A006D6039 /* KDCounterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDCounterView.h; sourceTree = "<group>"; };
+		6A39A59B2026DF49006D6039 /* KDTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDTextField.h; sourceTree = "<group>"; };
+		6A39A59C2026DF49006D6039 /* KDTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDTextField.m; sourceTree = "<group>"; };
+		6A39A59F2028F2C1006D6039 /* kdToggle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kdToggle.h; sourceTree = "<group>"; };
+		6A39A5A02028F2C1006D6039 /* kdToggle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kdToggle.m; sourceTree = "<group>"; };
+		6A39A5A22028F5E2006D6039 /* KDColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDColor.h; sourceTree = "<group>"; };
+		6A39A5A32028F5E2006D6039 /* KDColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDColor.m; sourceTree = "<group>"; };
+		6A39A5A520290045006D6039 /* KDNumField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDNumField.h; sourceTree = "<group>"; };
+		6A39A5A620290045006D6039 /* KDNumField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDNumField.m; sourceTree = "<group>"; };
+		6AAB272A2045060A004453CF /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		6AAB273D2045E0F4004453CF /* KDAdsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDAdsView.m; sourceTree = "<group>"; };
+		6AAB273E2045E0F4004453CF /* KDAdsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDAdsView.h; sourceTree = "<group>"; };
+		6AAB2742204746FB004453CF /* KDActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDActivityIndicator.h; sourceTree = "<group>"; };
+		6AAB2743204746FB004453CF /* KDActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDActivityIndicator.m; sourceTree = "<group>"; };
+		6AAB2745204760AA004453CF /* KDInAppHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDInAppHandler.h; sourceTree = "<group>"; };
+		6AAB2746204760AA004453CF /* KDInAppHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDInAppHandler.m; sourceTree = "<group>"; };
+		6AF19A7A202B6C820011278E /* KDScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDScrollView.h; sourceTree = "<group>"; };
+		6AF19A7B202B6C820011278E /* KDScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A39A5412024BFF0006D6039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AAB272B2045060B004453CF /* FBAudienceNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39A5592024BFF0006D6039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39A5642024BFF0006D6039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A39A53B2024BFF0006D6039 = {
+			isa = PBXGroup;
+			children = (
+				6A39A5462024BFF0006D6039 /* Hobby Counter */,
+				6A39A5452024BFF0006D6039 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A39A5452024BFF0006D6039 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A39A5442024BFF0006D6039 /* Hobby Counter.app */,
+				6A39A55C2024BFF0006D6039 /* Hobby CounterTests.xctest */,
+				6A39A5672024BFF0006D6039 /* Hobby CounterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A39A5462024BFF0006D6039 /* Hobby Counter */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB272A2045060A004453CF /* FBAudienceNetwork.framework */,
+				6A39A58E2024C078006D6039 /* KDKit.h */,
+				6A39A58F2024C078006D6039 /* KDKit.m */,
+				6A39A5A22028F5E2006D6039 /* KDColor.h */,
+				6A39A5A32028F5E2006D6039 /* KDColor.m */,
+				6A39A5872024C047006D6039 /* KDHelpers.h */,
+				6A39A5862024C047006D6039 /* KDHelpers.m */,
+				6A39A5852024C047006D6039 /* KDAnimations.h */,
+				6A39A58A2024C047006D6039 /* KDAnimations.m */,
+				6A39A59F2028F2C1006D6039 /* kdToggle.h */,
+				6A39A5A02028F2C1006D6039 /* kdToggle.m */,
+				6AAB2742204746FB004453CF /* KDActivityIndicator.h */,
+				6AAB2743204746FB004453CF /* KDActivityIndicator.m */,
+				6A39A5A520290045006D6039 /* KDNumField.h */,
+				6A39A5A620290045006D6039 /* KDNumField.m */,
+				6A39A5972024E09A006D6039 /* KDCounterView.h */,
+				6A39A5962024E09A006D6039 /* KDCounterView.m */,
+				6A39A5882024C047006D6039 /* KDWarningLabel.h */,
+				6A39A5892024C047006D6039 /* KDWarningLabel.m */,
+				6A39A59B2026DF49006D6039 /* KDTextField.h */,
+				6A39A59C2026DF49006D6039 /* KDTextField.m */,
+				6A39A5792024C025006D6039 /* HapticHelper.h */,
+				6A39A57C2024C025006D6039 /* HapticHelper.m */,
+				6A39A57D2024C025006D6039 /* kdPrimitiveDataStore.h */,
+				6A39A5802024C025006D6039 /* kdPrimitiveDataStore.m */,
+				6A39A57F2024C025006D6039 /* kdSetupTableView.h */,
+				6A39A57B2024C025006D6039 /* kdSetupTableView.m */,
+				6A39A57A2024C025006D6039 /* kdTableView.h */,
+				6A39A57E2024C025006D6039 /* kdTableView.m */,
+				6A39A5472024BFF0006D6039 /* AppDelegate.h */,
+				6A39A5482024BFF0006D6039 /* AppDelegate.m */,
+				6A39A54A2024BFF0006D6039 /* ViewController.h */,
+				6A39A54B2024BFF0006D6039 /* ViewController.m */,
+				6AAB2745204760AA004453CF /* KDInAppHandler.h */,
+				6AAB2746204760AA004453CF /* KDInAppHandler.m */,
+				6AAB273E2045E0F4004453CF /* KDAdsView.h */,
+				6AAB273D2045E0F4004453CF /* KDAdsView.m */,
+				6AF19A7A202B6C820011278E /* KDScrollView.h */,
+				6AF19A7B202B6C820011278E /* KDScrollView.m */,
+				6A39A54D2024BFF0006D6039 /* Main.storyboard */,
+				6A39A5502024BFF0006D6039 /* Assets.xcassets */,
+				6A39A5522024BFF0006D6039 /* LaunchScreen.storyboard */,
+				6A39A5552024BFF0006D6039 /* Info.plist */,
+				6A39A5562024BFF0006D6039 /* main.m */,
+			);
+			path = "Hobby Counter";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A39A5432024BFF0006D6039 /* Hobby Counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A39A5702024BFF0006D6039 /* Build configuration list for PBXNativeTarget "Hobby Counter" */;
+			buildPhases = (
+				6A39A5402024BFF0006D6039 /* Sources */,
+				6A39A5412024BFF0006D6039 /* Frameworks */,
+				6A39A5422024BFF0006D6039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hobby Counter";
+			productName = "Just Count FFS";
+			productReference = 6A39A5442024BFF0006D6039 /* Hobby Counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A39A55B2024BFF0006D6039 /* Hobby CounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A39A5732024BFF0006D6039 /* Build configuration list for PBXNativeTarget "Hobby CounterTests" */;
+			buildPhases = (
+				6A39A5582024BFF0006D6039 /* Sources */,
+				6A39A5592024BFF0006D6039 /* Frameworks */,
+				6A39A55A2024BFF0006D6039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A39A55E2024BFF0006D6039 /* PBXTargetDependency */,
+			);
+			name = "Hobby CounterTests";
+			productName = "Just Count FFSTests";
+			productReference = 6A39A55C2024BFF0006D6039 /* Hobby CounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A39A5662024BFF0006D6039 /* Hobby CounterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A39A5762024BFF0006D6039 /* Build configuration list for PBXNativeTarget "Hobby CounterUITests" */;
+			buildPhases = (
+				6A39A5632024BFF0006D6039 /* Sources */,
+				6A39A5642024BFF0006D6039 /* Frameworks */,
+				6A39A5652024BFF0006D6039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A39A5692024BFF0006D6039 /* PBXTargetDependency */,
+			);
+			name = "Hobby CounterUITests";
+			productName = "Just Count FFSUITests";
+			productReference = 6A39A5672024BFF0006D6039 /* Hobby CounterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A39A53C2024BFF0006D6039 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "notnatural, LLC.";
+				TargetAttributes = {
+					6A39A5432024BFF0006D6039 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6A39A55B2024BFF0006D6039 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A39A5432024BFF0006D6039;
+					};
+					6A39A5662024BFF0006D6039 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A39A5432024BFF0006D6039;
+					};
+				};
+			};
+			buildConfigurationList = 6A39A53F2024BFF0006D6039 /* Build configuration list for PBXProject "Hobby Counter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A39A53B2024BFF0006D6039;
+			productRefGroup = 6A39A5452024BFF0006D6039 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A39A5432024BFF0006D6039 /* Hobby Counter */,
+				6A39A55B2024BFF0006D6039 /* Hobby CounterTests */,
+				6A39A5662024BFF0006D6039 /* Hobby CounterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A39A5422024BFF0006D6039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A39A5542024BFF0006D6039 /* LaunchScreen.storyboard in Resources */,
+				6A39A5512024BFF0006D6039 /* Assets.xcassets in Resources */,
+				6A39A54F2024BFF0006D6039 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39A55A2024BFF0006D6039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39A5652024BFF0006D6039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A39A5402024BFF0006D6039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF19A7C202B6C820011278E /* KDScrollView.m in Sources */,
+				6A39A5A42028F5E2006D6039 /* KDColor.m in Sources */,
+				6A39A5A12028F2C1006D6039 /* kdToggle.m in Sources */,
+				6A39A5982024E09A006D6039 /* KDCounterView.m in Sources */,
+				6A39A58C2024C048006D6039 /* KDWarningLabel.m in Sources */,
+				6AAB2744204746FC004453CF /* KDActivityIndicator.m in Sources */,
+				6A39A58D2024C048006D6039 /* KDAnimations.m in Sources */,
+				6A39A58B2024C048006D6039 /* KDHelpers.m in Sources */,
+				6AAB2747204760AA004453CF /* KDInAppHandler.m in Sources */,
+				6A39A5812024C025006D6039 /* kdSetupTableView.m in Sources */,
+				6A39A54C2024BFF0006D6039 /* ViewController.m in Sources */,
+				6A39A5842024C025006D6039 /* kdPrimitiveDataStore.m in Sources */,
+				6A39A5572024BFF0006D6039 /* main.m in Sources */,
+				6A39A5A720290045006D6039 /* KDNumField.m in Sources */,
+				6A39A59D2026DF49006D6039 /* KDTextField.m in Sources */,
+				6A39A5902024C078006D6039 /* KDKit.m in Sources */,
+				6AAB273F2045E0F4004453CF /* KDAdsView.m in Sources */,
+				6A39A5492024BFF0006D6039 /* AppDelegate.m in Sources */,
+				6A39A5832024C025006D6039 /* kdTableView.m in Sources */,
+				6A39A5822024C025006D6039 /* HapticHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39A5582024BFF0006D6039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39A5632024BFF0006D6039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A39A55E2024BFF0006D6039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A39A5432024BFF0006D6039 /* Hobby Counter */;
+			targetProxy = 6A39A55D2024BFF0006D6039 /* PBXContainerItemProxy */;
+		};
+		6A39A5692024BFF0006D6039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A39A5432024BFF0006D6039 /* Hobby Counter */;
+			targetProxy = 6A39A5682024BFF0006D6039 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A39A54D2024BFF0006D6039 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A39A54E2024BFF0006D6039 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A39A5522024BFF0006D6039 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A39A5532024BFF0006D6039 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A39A56E2024BFF0006D6039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A39A56F2024BFF0006D6039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A39A5712024BFF0006D6039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Just\\ Count\\ FFS",
+					"$(PROJECT_DIR)/Just\\ Count\\ FFS",
+				);
+				INFOPLIST_FILE = "Just Count FFS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "Hobby Counter";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A39A5722024BFF0006D6039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Just\\ Count\\ FFS",
+					"$(PROJECT_DIR)/Just\\ Count\\ FFS",
+				);
+				INFOPLIST_FILE = "Just Count FFS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "Hobby Counter";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A39A5742024BFF0006D6039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZWL92LA7S;
+				INFOPLIST_FILE = "Just Count FFSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.notnatural.Just-Count-FFSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hobby Counter.app/Hobby Counter";
+			};
+			name = Debug;
+		};
+		6A39A5752024BFF0006D6039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZWL92LA7S;
+				INFOPLIST_FILE = "Just Count FFSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.notnatural.Just-Count-FFSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hobby Counter.app/Hobby Counter";
+			};
+			name = Release;
+		};
+		6A39A5772024BFF0006D6039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZWL92LA7S;
+				INFOPLIST_FILE = "Just Count FFSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.notnatural.Just-Count-FFSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Just Count FFS";
+			};
+			name = Debug;
+		};
+		6A39A5782024BFF0006D6039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZWL92LA7S;
+				INFOPLIST_FILE = "Just Count FFSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.notnatural.Just-Count-FFSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Just Count FFS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A39A53F2024BFF0006D6039 /* Build configuration list for PBXProject "Hobby Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A39A56E2024BFF0006D6039 /* Debug */,
+				6A39A56F2024BFF0006D6039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A39A5702024BFF0006D6039 /* Build configuration list for PBXNativeTarget "Hobby Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A39A5712024BFF0006D6039 /* Debug */,
+				6A39A5722024BFF0006D6039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A39A5732024BFF0006D6039 /* Build configuration list for PBXNativeTarget "Hobby CounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A39A5742024BFF0006D6039 /* Debug */,
+				6A39A5752024BFF0006D6039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A39A5762024BFF0006D6039 /* Build configuration list for PBXNativeTarget "Hobby CounterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A39A5772024BFF0006D6039 /* Debug */,
+				6A39A5782024BFF0006D6039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A39A53C2024BFF0006D6039 /* Project object */;
+}
